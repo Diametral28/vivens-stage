@@ -39,6 +39,7 @@ Base CSS or Common CSS are in reset.css
 Dorado = #BF9B5F
 Negro  = #55565A
 Gris   = #99999A
+Gris2  = #ECEAE8
 ---*/
 
 .menu_open_close_search,
@@ -1912,6 +1913,9 @@ sonarEffect
 #contactgoogleMap {
     height: 343px;
 }
+#contactgoogleMap2 {
+    height: 343px;
+}
 
 
 /* =====================
@@ -1919,7 +1923,11 @@ sonarEffect
 ===================== */
 
 #footer_area {
-    background: #001d27;
+    background: #ECEAE8;
+}
+
+#footer_area img {
+    height: 55px;
 }
 
 .footer-content {
@@ -1975,7 +1983,7 @@ sonarEffect
 }
 
 .footer-icon a i {
-    background: #9ba5a9 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     border-radius: 5px;
     color: #1c272a;
     font-size: 24px;
@@ -2028,8 +2036,8 @@ sonarEffect
 }
 
 .footer-bottom.text-center > p {
-    background: #002430 none repeat scroll 0 0;
-    color: #ccc;
+    background: #BF9B5F none repeat scroll 0 0;
+    color: #fff;
     margin: 0;
     padding: 28px 0;
 }
