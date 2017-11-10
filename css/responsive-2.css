@@ -1,0 +1,37 @@
+/* Tamaño s */
+@media screen and (max-width: 600px){
+    #work-process-area-1 {
+        background: url("../images/nosotros/nosotros1.png") no-repeat fixed center center / cover;;
+    }
+    #work-process-area-2 {
+        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
+    }
+}
+/* Tamaño m */
+@media screen and (max-width: 991px) and (min-width: 601px){
+    #work-process-area-1 {
+        background: url("../images/nosotros/nosotros1.png") no-repeat fixed center center / cover;;
+    }
+    #work-process-area-2 {
+        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
+    }
+}
+/* Tamaño l */
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    #work-process-area-1 {
+    background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+    #work-process-area-2 {
+        background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+}
+/* Tamaño xl */
+@media screen and (min-width: 1200px){
+    
+    #work-process-area-1 {
+    background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+    #work-process-area-2 {
+        background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+}
