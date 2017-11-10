@@ -6,6 +6,51 @@
     #work-process-area-2 {
         background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
     }
+    .portfolio-overlay .portfolio-caption {
+        position: relative;
+        top: calc(50% - 85px);
+    }
+    .portfolio-overlay .portfolio-caption h1 {
+        font-size: 30px;
+    }
+
+    .portfolio-overlay .portfolio-caption-medium {
+        position: relative;
+        top: calc(50% - 90px);
+    }
+    .portfolio-overlay .portfolio-caption-medium h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+        font-size: 20px;
+    }
+
+    .portfolio-overlay .portfolio-caption-tall {
+        position: relative;
+        top: calc(50% - 100px);
+    }
+    .portfolio-overlay .portfolio-caption-tall h1 {
+        font-size: 15px;
+        margin-top: -1.5em;
+        margin-bottom: -1.5em;
+    }
+
+    .portfolio-overlay .portfolio-caption-bottom {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    figcaption.portfolio-overlay p {
+        color: #fff;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-weight: 600;
+        -webkit-transition: .40s;
+        transition: .40s;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        font-size: 9px;
+    }
 }
 /* Tamaño m */
 @media screen and (max-width: 991px) and (min-width: 601px){
@@ -14,6 +59,45 @@
     }
     #work-process-area-2 {
         background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
+    }
+    .portfolio-overlay .portfolio-caption {
+        position: relative;
+        top: calc(50% - 80px);
+    }
+
+    .portfolio-overlay .portfolio-caption-medium {
+        position: relative;
+        top: calc(50% - 120px);
+    }
+    .portfolio-overlay .portfolio-caption-medium h1 {
+        /*margin-top: -.5em;
+        margin-bottom: -.5em;*/
+    }
+
+    .portfolio-overlay .portfolio-caption-tall {
+        position: relative;
+        top: calc(50% - 130px);
+    }
+    .portfolio-overlay .portfolio-caption-tall h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+    }
+
+    .portfolio-overlay .portfolio-caption-bottom {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    figcaption.portfolio-overlay p {
+        color: #fff;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-weight: 600;
+        -webkit-transition: .40s;
+        transition: .40s;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
     }
 }
 /* Tamaño l */
@@ -24,14 +108,157 @@
     #work-process-area-2 {
         background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
     }
+    .portfolio-overlay .portfolio-caption {
+        position: relative;
+        top: calc(50% - 70px);
+    }
+    .portfolio-overlay .portfolio-caption h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+        font-size: 20px;    }
+
+    .portfolio-overlay .portfolio-caption-medium {
+        position: relative;
+        top: calc(50% - 80px);
+    }
+    .portfolio-overlay .portfolio-caption-medium h1 {
+        margin-top: -1em;
+        margin-bottom: -1em;
+        font-size: 15px;
+    }
+
+    .portfolio-overlay .portfolio-caption-tall {
+        position: relative;
+        top: calc(50% - 85px);
+    }
+    .portfolio-overlay .portfolio-caption-tall h1 {
+        font-size: 12px;
+        margin-top: -2em;
+        margin-bottom: -2em;
+    }
+
+    .portfolio-overlay .portfolio-caption-bottom {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    figcaption.portfolio-overlay p {
+        color: #fff;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-weight: 600;
+        -webkit-transition: .40s;
+        transition: .40s;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        font-size: 6.5px;
+    }
 }
 /* Tamaño xl */
-@media screen and (min-width: 1200px){
+@media screen and (max-width: 1919px) and (min-width: 1200px){
     
     #work-process-area-1 {
     background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
     }
     #work-process-area-2 {
         background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+
+    .portfolio-overlay .portfolio-caption {
+        position: relative;
+        top: calc(50% - 85px);
+    }
+    .portfolio-overlay .portfolio-caption h1 {
+        font-size: 30px;
+    }
+
+    .portfolio-overlay .portfolio-caption-medium {
+        position: relative;
+        top: calc(50% - 90px);
+    }
+    .portfolio-overlay .portfolio-caption-medium h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+        font-size: 20px;
+    }
+
+    .portfolio-overlay .portfolio-caption-tall {
+        position: relative;
+        top: calc(50% - 100px);
+    }
+    .portfolio-overlay .portfolio-caption-tall h1 {
+        font-size: 15px;
+        margin-top: -1.5em;
+        margin-bottom: -1.5em;
+    }
+
+    .portfolio-overlay .portfolio-caption-bottom {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    figcaption.portfolio-overlay p {
+        color: #fff;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-weight: 600;
+        -webkit-transition: .40s;
+        transition: .40s;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+        font-size: 9px;
+    }
+}
+
+/* Tamaño xxl */
+@media screen and (min-width: 1920px){
+    
+    #work-process-area-1 {
+    background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+    #work-process-area-2 {
+        background: url("../images/nosotros/Img-Nosotros-com.png") no-repeat fixed center center / cover;;
+    }
+
+    .portfolio-overlay .portfolio-caption {
+        position: relative;
+        top: calc(50% - 80px);
+    }
+
+    .portfolio-overlay .portfolio-caption-medium {
+        position: relative;
+        top: calc(50% - 120px);
+    }
+    .portfolio-overlay .portfolio-caption-medium h1 {
+        /*margin-top: -.5em;
+        margin-bottom: -.5em;*/
+    }
+
+    .portfolio-overlay .portfolio-caption-tall {
+        position: relative;
+        top: calc(50% - 130px);
+    }
+    .portfolio-overlay .portfolio-caption-tall h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+    }
+
+    .portfolio-overlay .portfolio-caption-bottom {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    figcaption.portfolio-overlay p {
+        color: #fff;
+        margin-top: 7px;
+        margin-bottom: 0;
+        font-weight: 600;
+        -webkit-transition: .40s;
+        transition: .40s;
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
     }
 }

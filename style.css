@@ -868,6 +868,10 @@ form.search-box {
     width: 100%;
 }
 
+.portfolio-item a{
+    color:#fff;
+}
+
 .portfolio-item figcaption.portfolio-overlay {
     background:  rgba(0, 3, 5, 0.9);
     color: #6f6f6f;
@@ -883,34 +887,7 @@ form.search-box {
     z-index: 9;
 }
 
-.portfolio-overlay .portfolio-caption {
-    position: relative;
-    top: calc(50% - 80px);
-}
 
-.portfolio-overlay .portfolio-caption-medium {
-    position: relative;
-    top: calc(50% - 90px);
-}
-.portfolio-overlay .portfolio-caption-medium h1 {
-    margin-top: -.5em;
-    margin-bottom: -.5em;
-}
-
-.portfolio-overlay .portfolio-caption-tall {
-    position: relative;
-    top: calc(50% - 130px);
-}
-.portfolio-overlay .portfolio-caption-tall h1 {
-    margin-top: -.5em;
-    margin-bottom: -.5em;
-}
-
-.portfolio-overlay .portfolio-caption-bottom {
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-}
 
 .portfolio-item figure:hover figcaption.portfolio-overlay {
     opacity: 1;
@@ -973,18 +950,6 @@ figcaption.portfolio-overlay hr{
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-}
-
-figcaption.portfolio-overlay p {
-    color: #fff;
-    margin-top: 7px;
-    margin-bottom: 0;
-    font-weight: 600;
-    -webkit-transition: .40s;
-    transition: .40s;
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
 }
 
 .portfolio-item figure:hover figcaption.portfolio-overlay p {
@@ -1932,11 +1897,11 @@ sonarEffect
 }
 
 .footer-content {
-    padding: 40px 0;
+    padding: 25px 0;
 }
 
 .footer-content hr {
-    background: #24c3f8 none repeat scroll 0 0;
+    background: #BF9B5F none repeat scroll 0 0;
     border: medium none;
     display: block;
     height: 3px;
