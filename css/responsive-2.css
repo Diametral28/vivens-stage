@@ -1,10 +1,10 @@
 /* Tamaño s */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
     #work-process-area-1 {
-        background: url("../images/nosotros/nosotros1.png") no-repeat fixed center center / cover;;
+        background: url("../images/nosotros/nosotros1.png") no-repeat fixed center center / cover;
     }
     #work-process-area-2 {
-        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
+        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;
     }
     .portfolio-overlay .portfolio-caption {
         position: relative;
@@ -53,7 +53,7 @@
     }
 }
 /* Tamaño m */
-@media screen and (max-width: 991px) and (min-width: 601px){
+@media screen and (max-width: 991px) and (min-width: 768px){
     #work-process-area-1 {
         background: url("../images/nosotros/nosotros1.png") no-repeat fixed center center / cover;;
     }
@@ -62,25 +62,31 @@
     }
     .portfolio-overlay .portfolio-caption {
         position: relative;
-        top: calc(50% - 80px);
+        top: calc(50% - 70px);
     }
+    .portfolio-overlay .portfolio-caption h1 {
+        margin-top: -.5em;
+        margin-bottom: -.5em;
+        font-size: 20px;    }
 
     .portfolio-overlay .portfolio-caption-medium {
         position: relative;
-        top: calc(50% - 120px);
+        top: calc(50% - 80px);
     }
     .portfolio-overlay .portfolio-caption-medium h1 {
-        /*margin-top: -.5em;
-        margin-bottom: -.5em;*/
+        margin-top: -1em;
+        margin-bottom: -1em;
+        font-size: 15px;
     }
 
     .portfolio-overlay .portfolio-caption-tall {
         position: relative;
-        top: calc(50% - 130px);
+        top: calc(50% - 85px);
     }
     .portfolio-overlay .portfolio-caption-tall h1 {
-        margin-top: -.5em;
-        margin-bottom: -.5em;
+        font-size: 12px;
+        margin-top: -2em;
+        margin-bottom: -2em;
     }
 
     .portfolio-overlay .portfolio-caption-bottom {
@@ -98,6 +104,7 @@
         -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
         transform: translateX(100%);
+        font-size: 6.5px;
     }
 }
 /* Tamaño l */

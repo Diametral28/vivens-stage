@@ -695,6 +695,9 @@ form.search-box {
 
 #work-process-area p{
     padding: 0 40px;
+    font-size: 15px;
+    white-space: pre-line;
+    text-align: justify;
 }
 
 .overlay {
@@ -1015,7 +1018,7 @@ Start Services CSS
     /*background-color: #f7f7f7;
     border: 8px solid #f4f4f4;*/
     padding: 40px 0 35px;
-    text-align: center;
+    /*text-align: center;*/
     margin: 15px 0;
 }
 
@@ -1093,7 +1096,7 @@ Start Services CSS
 }
 
 .our-team-img-tab ul li.active a img {
-    border-bottom: 4px solid #3498db;
+    border-bottom: 4px solid #BF9B5F;
     -webkit-filter: grayscale(0);
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
     -webkit-filter: grayscale(0);
@@ -1140,9 +1143,9 @@ Start Services CSS
 }
 
 .single-team-info h2 {
-    color: #fff;
+    color: #000;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 1px;
     line-height: 15px;
     margin: 0 0 10px;
@@ -1157,9 +1160,10 @@ Start Services CSS
 }
 
 .single-team-info p {
-    color: #cccccc;
+    color: #000;
     line-height: 30px;
     margin: 0;
+    font-weight: bold;
 }
 
 .team-social-icon {
@@ -1193,7 +1197,7 @@ Start Services CSS
 }
 
 .single-team-skills .progress-bar {
-    background: #3498db;
+    background: #2f5f80;
 }
 
 .single-team-skills .progress .lead {
@@ -1221,7 +1225,7 @@ Start Services CSS
 }
 
 .single-team-skills .progress-bar > span {
-    background: #3498db none repeat scroll 0 0;
+    background: #2f5f80  none repeat scroll 0 0;
     float: right;
     font-size: 11px;
     margin-right: -15px;
@@ -1242,7 +1246,7 @@ Start Services CSS
 }
 
 .single-team-skills .progress-bar > span:before {
-    border-top-color: #3498db;
+    border-top-color: #2f5f80;
     border-width: 5px;
     left: calc( 50% - 5px);
 }

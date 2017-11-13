@@ -56,7 +56,7 @@
         navOffsetVertical:20,
         navigationType:false,
         navigationArrows:"nexttobullets",
-        navigationStyle:"preview4",	
+        navigationStyle:"preview4", 
         shadow:0,
         fullWidth:"on",
         fullScreen:"on",
@@ -97,13 +97,13 @@
     });
 
     // 10.0 Menu Close Button
-    //openMenu();
-    if( windowWidth > 768 ){
-        openMenu();
-    }
+    
     function openMenu(){
         $(this).toggleClass('Cross');
         body.toggleClass('menuEffect');
+    }
+    if( windowWidth > 768 ){
+        openMenu();
     }
     $('.menuCloseBtn').on('click', function(){
         openMenu();

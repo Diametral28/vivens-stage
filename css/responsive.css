@@ -18,10 +18,10 @@
         padding-right: 75px;
     }
     .mainmenu ul.nav li a {
-        padding: 5px 20px;
+        padding: 5px 6px;
     }
     .is-sticky .mainmenu ul.nav li a {
-        padding: 5px 20px;
+        padding: 5px 6px;
     }
     .search-box {
         right: 0;
@@ -65,9 +65,9 @@
     figcaption.portfolio-overlay h6 {
         font-size: 13px;
     }
-    figcaption.portfolio-overlay p {
+    /*figcaption.portfolio-overlay p {
         margin: 0;
-    }
+    }*/
     #purchase-area h2 {
         font-size: 20px;
         letter-spacing: inherit;
@@ -160,10 +160,10 @@
     figcaption.portfolio-overlay h6 {
         font-size: 12px;
     }
-    figcaption.portfolio-overlay p {
+    /*figcaption.portfolio-overlay p {
         margin-top: 10px;
         font-size: 10px;
-    }
+    }*/
     #purchase-area .overlay {
         padding: 20px 0;
     }
@@ -216,6 +216,7 @@
     }
     .mainmenu ul.nav li a {
         padding: 15px;
+        font-size: 12px;
     }
     .is-sticky .mainmenu ul.nav li a {
         padding: 5px 15px;
@@ -273,8 +274,8 @@
         font-size: 20px;
     }
     .mainmenu ul#nav li > a {
-        padding-right: 12px;
-        padding-left: 12px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
     
 }
@@ -362,12 +363,12 @@
         font-size: 14px;
         font-weight: 300;
     }
-    figcaption.portfolio-overlay p {
+    /*figcaption.portfolio-overlay p {
         font-size: 10px;
         font-weight: 300;
         margin: 0;
         padding-top: 5px;
-    }
+    }*/
     .single-counter {
         height: auto;
         margin-bottom: 50px;
@@ -548,10 +549,10 @@
     figcaption.portfolio-overlay h6 {
         font-size: 14px;
     }
-    figcaption.portfolio-overlay p {
+    /*figcaption.portfolio-overlay p {
         margin-top: 10px;
         font-size: 12px;
-    }
+    }*/
     .single-work-process {
         margin: 30px 15px 0;
     }
