@@ -181,4 +181,29 @@
         });
     });
     
+    // Contact form
+    var form = $('#main-contact-form');
+    form.submit(function(event){
+        event.preventDefault();
+        var form_status = $('<div class="form_status"></div>');
+        var values = {
+            "nombre": $("#nombre").val(),
+            "correo": $("#correo").val(),
+            "correo": $("#correo").val(),
+            "asunto": $("#asunto").val(),
+            "mensaje": $("#mensaje").val()
+        };
+        $.ajax({
+            type:"POST",
+            url: $(this).attr('action'),
+            data: values,
+            beforeSend: function(){
+                //form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando Correo...</p>').fadeIn() );
+            }
+        }).done(function(response){
+            //$("#mails").html(response);
+            form_status.html('<p class="text-success">Gracias por contactarnos. En unos momentos nos comunicaremos contigo.</p>').delay(6000).fadeOut();
+        });
+    });
+
 })(jQuery);

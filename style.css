@@ -2262,7 +2262,7 @@ sonarEffect
 div#preloader {
     overflow: hidden;
     background-color: #fff;
-    background-image: url(images/core-images/loader.gif);
+    background-image: url(images/core-images/loadervivens.gif);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;

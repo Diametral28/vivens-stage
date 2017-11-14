@@ -349,7 +349,7 @@
                     <div id="work-process-area-1">
                         <div class=" section-padding-dark text-center ">
                             <div class=" section_title_white" align="center">
-                                <h2>¿Cómo vivimos nuestra pasión… ?</h2>
+                                <h2>- Así es como hablaremos de nosotros -</h2>
                                 <p>El hacer lo que soñamos es ahí donde radica nuestra pasión y felicidad, años de preparación, estudio y experiencia diaria nos han dado grandes vivencias; hemos logrado escribir grandes historias y vivir grandes momentos, hemos llegado a la conclusión que lo podemos resumir en algo muy significativo para nosotros; <b> aprendimos a sentir y a transmitir sensaciones de vida. </b> </p>
                             </div>
                         </div>
@@ -359,8 +359,8 @@
                     <div id="work-process-area-2">
                         <div class=" section-padding-dark text-center ">
                             <div class=" section_title_white" align="center">
-                                <h2>_</h2>
-                                <p>Te enseñamos a escuchar a tu cuerpo, a permitirte encontrar el punto de equilibrio en tu vida, a disfrutarte con todo lo que hemos diseñando para ti; nuestro principal objetivo es lograr las mejores historias y experiencias de vida. 
+                                <h2>¿Cómo vivimos nuestra pasión… ?</h2>
+                                <p>Te enseñamos a escuchar tu cuerpo, a permitirte encontrar el punto de equilibrio en tu vida, a disfrutarte con todo lo que hemos diseñando para ti; nuestro principal objetivo es lograr las mejores historias y experiencias de vida. 
 
                                     <b> VIVENS | The LifeStyle Spa </b>
                                 </p>
@@ -1492,26 +1492,26 @@
             <div class="row">
                 <!-- contact from start -->
                 <div class="contact-form">
-                    <form action="#" method="post">
+                    <form action="operations/userOperations.php?operation=nuevoContacto" method="post" name="contact-form" id="main-contact-form">
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Nombre *" name="name" />
+                            <input type="text" placeholder=" Nombre *" name="nombre" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Email *" name="email" />
+                            <input type="text" placeholder=" Email *" name="correo" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Telefono *" name="phone" />
+                            <input type="text" placeholder=" Telefono *" name="telefono" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Asunto" />
+                            <input type="text" placeholder=" Asunto" name="asunto" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-12 col-sm-12">
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder=" Escribe tu mensaje... "></textarea>
+                            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder=" Escribe tu mensaje... "></textarea>
                         </div>
                         <!-- single input -->
                         <div class="col-md-12 col-sm-12 content-center">
@@ -1574,7 +1574,144 @@
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5Sjy68hWY2bsARn-jOE_uhGeYy7OYnxo"></script>
     <script>
-        var myCenter2 = new google.maps.LatLng(40.712557, -74.007121);
+      var myCenter = new google.maps.LatLng(20.5888557, -103.447522);
+        function initialize() {
+            var mapProp = {
+                center: myCenter,
+                zoom: 15,
+                scrollwheel: false,
+                mapTpeIdy: google.maps.MapTypeId.TERRAIN,
+                styles: [
+                    {
+                        "featureType": "landscape",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "lightness": 65
+                                        },
+                            {
+                                "visibility": "on"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "poi",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "lightness": 51
+                                        },
+                            {
+                                "visibility": "simplified"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "road.highway",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "visibility": "simplified"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "road.arterial",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "lightness": 30
+                                        },
+                            {
+                                "visibility": "on"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "road.local",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "lightness": 40
+                                        },
+                            {
+                                "visibility": "on"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "transit",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                                        },
+                            {
+                                "visibility": "simplified"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "administrative.province",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "water",
+                        "elementType": "labels",
+                        "stylers": [
+                            {
+                                "visibility": "on"
+                                        },
+                            {
+                                "lightness": -25
+                                        },
+                            {
+                                "saturation": -100
+                                        }
+                                    ]
+                                },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "hue": "#ffff00"
+                                        },
+                            {
+                                "lightness": -25
+                                        },
+                            {
+                                "saturation": -97
+                                        }
+                                    ]
+                                }
+                            ]
+            };
+            var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'images/google-pin.png'
+            });
+            marker.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+        <script>
+        var myCenter2 = new google.maps.LatLng(20.6483122, -103.4228763);
 
         function initialize2() {
             var mapProp2 = {
@@ -1711,144 +1848,6 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize2);
     </script>
-    <script>
-      var myCenter = new google.maps.LatLng(40.712557, -74.007121);
-        function initialize() {
-            var mapProp = {
-                center: myCenter,
-                zoom: 15,
-                scrollwheel: false,
-                mapTpeIdy: google.maps.MapTypeId.TERRAIN,
-                styles: [
-                    {
-                        "featureType": "landscape",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "lightness": 65
-                                        },
-                            {
-                                "visibility": "on"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "poi",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "lightness": 51
-                                        },
-                            {
-                                "visibility": "simplified"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "road.highway",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "visibility": "simplified"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "road.arterial",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "lightness": 30
-                                        },
-                            {
-                                "visibility": "on"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "road.local",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "lightness": 40
-                                        },
-                            {
-                                "visibility": "on"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "transit",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                                        },
-                            {
-                                "visibility": "simplified"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "administrative.province",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "water",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "on"
-                                        },
-                            {
-                                "lightness": -25
-                                        },
-                            {
-                                "saturation": -100
-                                        }
-                                    ]
-                                },
-                    {
-                        "featureType": "water",
-                        "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "hue": "#ffff00"
-                                        },
-                            {
-                                "lightness": -25
-                                        },
-                            {
-                                "saturation": -97
-                                        }
-                                    ]
-                                }
-                            ]
-            };
-            var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
-            var marker = new google.maps.Marker({
-                position: myCenter,
-                animation: google.maps.Animation.BOUNCE,
-                icon: 'images/google-pin.png'
-            });
-            marker.setMap(map);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
 
