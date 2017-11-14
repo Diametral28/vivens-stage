@@ -3,7 +3,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/HPE_.svg);
+  background: url(../images/marcas/HPE_.svg);
   background-size: 120px 82px;
 }
 
@@ -12,7 +12,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/IBM_.svg);
+  background: url(../images/marcas/IBM_.svg);
   background-size: 120px 82px;
 }
 
@@ -21,7 +21,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/Iteso_.svg);
+  background: url(../images/marcas/Iteso_.svg);
   background-size: 120px 82px;
 }
 
@@ -30,7 +30,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/Jose-Cuervo_.svg);
+  background: url(../images/marcas/Jose-Cuervo_.svg);
   background-size: 120px 82px;
 }
 
@@ -39,7 +39,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/Nike_.svg);
+  background: url(../images/marcas/Nike_.svg);
   background-size: 120px 82px;
 }
 
@@ -48,7 +48,7 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/Los-office_.svg);
+  background: url(../images/marcas/Los-office_.svg);
   background-size: 120px 82px;
 }
 
@@ -57,6 +57,123 @@
   text-indent: -9999px;
   width: 120px;
   height: 82px;
-  background: url(../images/iconos/Motomexa_.svg);
+  background: url(../images/marcas/Motomexa_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-cemex {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/cemex_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-continental {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Continental_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-gatorade {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Gatorade_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-hp {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/HP_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-omnilife {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Omnilife_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-oracle {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Oracle_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-panduit {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Panduit_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-pepsi {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Pepsi_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-philip {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Philip-Morris-Mexico_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-puerta {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/puerta-de-hierro_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-toshiba {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Toshiba_.svg);
+  background-size: 120px 82px;
+}
+
+.logos-toyota {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/Toyota.svg);
+  background-size: 120px 82px;
+}
+
+.logos-udg {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 82px;
+  background: url(../images/marcas/UDG_.svg);
   background-size: 120px 82px;
 }

@@ -899,8 +899,8 @@ form.search-box {
 
 figcaption.portfolio-overlay a {
     display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 5px;
+    /*margin-bottom: 20px;
+    margin-right: 5px;*/
 }
 
 figcaption.portfolio-overlay a i {
