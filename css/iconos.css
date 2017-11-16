@@ -177,3 +177,30 @@
   background: url(../images/marcas/UDG_.svg);
   background-size: 120px 82px;
 }
+
+.logos-d28 {
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  height: 50px;
+  background: url(../images/iconos/D28.svg);
+  background-size: 50px 50px;
+}
+
+.logos-cosmiatria {
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 100px;
+  background: url(../images/servicios/Cosmiatría.svg);
+  background-size: 200px 100px;
+}
+
+.logos-electroacupuntura {
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 100px;
+  background: url(../images/servicios/Electroacupuntura.svg);
+  background-size: 200px 100px;
+}
