@@ -1,5 +1,6 @@
 /* Tamaño s */
 @media screen and (max-width: 767px){
+
     #work-process-area-1 {
         background: url("../images/nosotros/Img-Nosotros_1.png") no-repeat fixed center center / cover;
     }
@@ -109,6 +110,9 @@
 }
 /* Tamaño l */
 @media screen and (max-width: 1199px) and (min-width: 992px){
+    #tam-nosotros{
+        height: 388px;
+    }
     #work-process-area-1 {
     background: url("../images/nosotros/Img-Nosotros.png") no-repeat fixed center center / cover;;
     }
@@ -164,7 +168,9 @@
 }
 /* Tamaño xl */
 @media screen and (max-width: 1919px) and (min-width: 1200px){
-    
+    #tam-nosotros{
+        height: 360px;
+    }
     #work-process-area-1 {
     background: url("../images/nosotros/Img-Nosotros.png") no-repeat fixed center center / cover;;
     }
@@ -222,6 +228,9 @@
 /* Tamaño xxl */
 @media screen and (min-width: 1920px){
     
+    #tam-nosotros{
+        height: 310px;
+    }
     #work-process-area-1 {
     background: url("../images/nosotros/Img-Nosotros.png") no-repeat fixed center center / cover;;
     }
