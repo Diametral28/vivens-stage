@@ -1441,9 +1441,9 @@ Start Services CSS
 }
 
 .single-counter h6 {
-    color: #fff;
-    font-size: 16px;
-    letter-spacing: 2px;
+    color: #FFCF7E;
+    font-size: 20px;
+   /* letter-spacing: 2px;*/
     font-family: 'Hero-Light';
 }
 
