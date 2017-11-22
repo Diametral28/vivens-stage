@@ -1134,7 +1134,7 @@ Start Services CSS
 }
 
 .our-team-content {
-    background: url(images/equipo/Fondo-colaboradores.jpg) no-repeat fixed center center / cover;
+    background: url(images/equipo/Fondo-colaboradores.png) no-repeat fixed center center / cover;
     background-attachment: fixed;
 }
 
@@ -1148,8 +1148,9 @@ Start Services CSS
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 15px;
-    margin: 0 0 10px;
+    margin: 15px;
     font-family: 'Hero-Light';
+    padding-top: 10px;
 }
 
 .single-team-info p span {
@@ -1164,6 +1165,7 @@ Start Services CSS
     line-height: 30px;
     margin: 0;
     font-weight: bold;
+    margin: 15px;
 }
 
 .team-social-icon {
@@ -1198,6 +1200,7 @@ Start Services CSS
 
 .single-team-skills .progress-bar {
     background: #2f5f80;
+    padding-right: 10px;
 }
 
 .single-team-skills .progress .lead {
@@ -1385,7 +1388,7 @@ Start Services CSS
 ===============================================*/
 
 #amazing-facts-area {
-    background: url(images/certificaciones/Fondo-certificaciones.jpg) no-repeat fixed center center / cover;
+    background: url(images/certificaciones/Fondo-certificaciones2.jpg) no-repeat fixed center center / cover;
 }
 
 .single-counter {
