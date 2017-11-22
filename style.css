@@ -1134,7 +1134,7 @@ Start Services CSS
 }
 
 .our-team-content {
-    background: url(images/equipo/Fondo-colaboradores.png) no-repeat fixed center center / cover;
+    background: url(images/equipo/Fondo-colaboradores.jpg) no-repeat fixed center center / cover;
     background-attachment: fixed;
 }
 
@@ -1385,7 +1385,7 @@ Start Services CSS
 ===============================================*/
 
 #amazing-facts-area {
-    background: url(images/certificaciones/Fondo-certificaciones2.jpg) no-repeat fixed center center / cover;
+    background: url(images/certificaciones/Fondo-certificaciones.jpg) no-repeat fixed center center / cover;
 }
 
 .single-counter {
