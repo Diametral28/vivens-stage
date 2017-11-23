@@ -103,7 +103,7 @@
         body.toggleClass('menuEffect');
     }
     if( windowWidth > 768 ){
-        openMenu();
+        //openMenu();
     }
     $('.menuCloseBtn').on('click', function(){
         openMenu();
