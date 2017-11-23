@@ -196,7 +196,7 @@
         $.ajax({
             type:"POST",
             url: $(this).attr('action'),
-            data: values,
+              data: values,
             beforeSend: function(){
                 //form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando Correo...</p>').fadeIn() );
             }
@@ -205,5 +205,19 @@
             form_status.html('<p class="text-success">Gracias por contactarnos. En unos momentos nos comunicaremos contigo.</p>').delay(6000).fadeOut();
         });
     });
+
+    // ------ Video
+    // 
+    
+    $('#videoVivens').on('click',function (event) {
+        console.log("play");
+        var video = $("#videoVivens2");
+        videoPlay(video);
+    });
+
+    function videoPlay(video){
+        video.get(0).play();
+    }
+
 
 })(jQuery);

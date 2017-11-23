@@ -60,7 +60,7 @@
     <link rel="stylesheet" href="css/iconos.css">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" href="images/core-images/apple-icon.jpg">
+    <link rel="apple-touch-icon-precomposed" href="images/iconos/Imagotipo32px.jpg">
     <link rel="shortcut icon" type="image/png" href="images/iconos/Imagotipo32px.ico">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -303,7 +303,7 @@
                 <div class="col-sm-4">
                     <div class="features-content">
                         <div class="featureIcon">
-                            <a href="#"><img src="images/slider/play.png" alt="" data-toggle="modal" data-target="#myModal"></a>
+                            <a href="#" id="videoVivens"><img src="images/slider/play.png" alt="" data-toggle="modal" data-target="#myModal"></a>
                             <!-- <i class="icon-mobile"></i> -->
                         </div>
                        <!--  <h2>100% Responsive</h2>
@@ -643,7 +643,7 @@
                         <ul>
                             <li>Acupuntura</li>
                             <li> Sesión de <span>20-30 minutos</span></li>
-                            <li><span>*</span> Promoción válida en Viven Ciudadela</li>
+                            <li><span>*</span> Promoción válida en Vivens Ciudadela</li>
 
                         </ul>
                         <div class="choose_a_plan_button">
@@ -1587,7 +1587,7 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
                     <p>Copyright &copy; 2017 VIVENS. Todos los derechos Reservados.</p>
                 </div>
                 <div  align="center">
-                    <p> Desarrollado por <a href="http://diametral28.com"  target="_blank">Diemtral28</i></p>
+                    <p> Desarrollado por <a href="http://diametral28.com"  target="_blank">Diemtral28</a></p>
                 </div>
                 <!--  <div  align="center">
                     <p><a href="#"><i class="logos-d28"></i></p>
@@ -1941,13 +1941,13 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button type="button" onclick="console.log('pause'); document.getElementById('videoVivens2').pause();" class="close" data-dismiss="modal" >&times;</button>
         <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
         <div class="row">
             <div class="col-sm-12">
-                <video width="100%" controls>
+                <video width="100%" id="videoVivens2" controls>
                     <source src="images/video/videoweb.mp4" type="video/mp4">
                     <source src="images/video/videoweb.ogv" type="video/ogg">
                     <source src="images/video/videoweb.webm" type="video/webm">
