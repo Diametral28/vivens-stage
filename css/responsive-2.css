@@ -1,11 +1,17 @@
 /* Tamaño s */
 @media screen and (max-width: 767px){
 
+    .our-team-content {
+    background: url(../images/equipo/Fondo-colaboradores.png) no-repeat center;
+    }
+    #amazing-facts-area {
+    background: url(../images/certificaciones/Fondo-certificaciones2.jpg) no-repeat center ;
+    }
     #work-process-area-1 {
-        background: url("../images/nosotros/Img-Nosotros_1.png") no-repeat fixed center center / cover;
+        background: url("../images/nosotros/Img-Nosotros_1.png") no-repeat center ;
     }
     #work-process-area-2 {
-        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;
+        background: url("../images/nosotros/nosotros2.png") no-repeat center;
     }
     .portfolio-overlay .portfolio-caption {
         position: relative;
@@ -55,11 +61,17 @@
 }
 /* Tamaño m */
 @media screen and (max-width: 991px) and (min-width: 768px){
+    .our-team-content {
+    background: url(../images/equipo/Fondo-colaboradores.png) no-repeat center;
+    }
+    #amazing-facts-area {
+    background: url(../images/certificaciones/Fondo-certificaciones2.jpg) no-repeat center ;
+    }
     #work-process-area-1 {
-        background: url("../images/nosotros/Img-Nosotros_1.png") no-repeat fixed center center / cover;;
+        background: url("../images/nosotros/Img-Nosotros_1.png") no-repeat center ;
     }
     #work-process-area-2 {
-        background: url("../images/nosotros/nosotros2.png") no-repeat fixed center center / cover;;
+        background: url("../images/nosotros/nosotros2.png") no-repeat center;
     }
     .portfolio-overlay .portfolio-caption {
         position: relative;
