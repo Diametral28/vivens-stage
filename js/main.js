@@ -185,13 +185,13 @@
     var form = $('#main-contact-form');
     form.submit(function(event){
         event.preventDefault();
-        var form_status = $('<div class="form_status"></div>');
+        var form_status = $('.form_status');
         var values = {
             "nombre": $("#nombre").val(),
             "correo": $("#correo").val(),
-            "correo": $("#correo").val(),
+            "telefono": $("#telefono").val(),
             "asunto": $("#asunto").val(),
-            "mensaje": $("#mensaje").val()
+            "mensaje": $("#message").val()
         };
         $.ajax({
             type:"POST",

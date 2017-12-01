@@ -1485,28 +1485,29 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
                     <form action="operations/userOperations.php?operation=nuevoContacto" method="post" name="contact-form" id="main-contact-form">
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Nombre *" name="nombre" />
+                            <input type="text" placeholder=" Nombre *" name="nombre" id="nombre" required="required" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Email *" name="correo" />
+                            <input type="email" placeholder=" Email *" name="correo" id="correo" required="required" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Telefono *" name="telefono" />
+                            <input type="tel" placeholder=" Teléfono *" name="telefono" id="telefono" required="required" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" placeholder=" Asunto" name="asunto" />
+                            <input type="text" placeholder=" Asunto" name="asunto" id="asunto" required="required" />
                         </div>
                         <!-- single input -->
                         <div class="col-md-12 col-sm-12">
-                            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder=" Escribe tu mensaje... "></textarea>
+                            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder=" Escribe tu mensaje... " required="required" ></textarea>
                         </div>
                         <!-- single input -->
                         <div class="col-md-12 col-sm-12 content-center">
                             <input name="submit" type="submit" value="Enviar Mensaje!" />
                         </div>
+                        <div class="form_status"></div>
                     </form>
                 </div>
                 <!-- contact from end -->

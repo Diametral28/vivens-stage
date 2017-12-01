@@ -1789,7 +1789,7 @@ sonarEffect
 14. Start Contact Form CSS
 ==========================*/
 
-.contact-form input[type="text"] {
+.contact-form input[type="text"], input[type="email"], input[type="tel"] {
     border: 1px solid #c2c2c2;
     border-radius: 6px;
     color: #6f6f6f;

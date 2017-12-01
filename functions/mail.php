@@ -4,7 +4,7 @@ include_once '../includes/PHPMailer-master/PHPMailerAutoload.php';
 function mailContacto($nombre, $correo, $asun, $mensaje, $telefono)
 {
     	
-	$destino1 = "drg_henri@hotmail.com";
+	$destino1 = "omar_8375@hotmailcom";
     $asunto = "Nuevo mensaje del area de Contacto";
     $mensaje = "
 
@@ -15,31 +15,31 @@ function mailContacto($nombre, $correo, $asun, $mensaje, $telefono)
     	<title></title>
     </head>
     <body>
-    	<table cellpadding='5' cellspacing='3' align='center' width='100%'>
-    		<tr>
-    			<th style='background-color: #18b735 ; color:#FFF; font-size:16px;' colspan='3' align='center'>Un nuevo mensaje se ha generado</th>
-    		</tr>
-    		<tr align='left'>
-    			<th style='background-color:#B0B0B0; font-size:12px; width:35%; height:10%'>Nombre:</th>
-    			<td style='background-color:#DBDBDB; font-size:12px; width:35%; height:10%'>TC" . $nombre . "</td>
-    		</tr>
-    		<tr align='left'>
-    			<th style='background-color:#B0B0B0; font-size:12px; width:35%; height:10%'>Correo:</th>
-    			<td style='background-color:#DBDBDB; font-size:12px; width:35%; height:10%'>" . $correo . "</td>
-    		</tr>
-    		<tr align='left'>
-    			<th style='background-color:#B0B0B0; font-size:12px; width:35%; height:10%'>Asunto:</th>
-    			<td style='background-color:#DBDBDB; font-size:12px; width:35%; height:10%'>" . $asun . "</td>
-    		</tr>
-            <tr align='left'>
-                <th style='background-color:#B0B0B0; font-size:12px; width:35%; height:10%'>Telefono:</th>
-                <td style='background-color:#DBDBDB; font-size:12px; width:35%; height:10%'>" . $telefono . "</td>
+    	<table style='border-collapse: collapse; text-align: left; width: 100%; font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; '>
+            <tr>
+                <th style='background-color:#006699; color:#ffffff; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8;  padding: 10px 10px; ' colspan='2' align='center'>Un nuevo mensaje se ha generado</th>
             </tr>
-    		<tr align='left'>
-    			<th style='background-color:#B0B0B0; font-size:12px; width:35%; height:10%'>Mensaje:</th>
-    			<td style='background-color:#DBDBDB; font-size:12px; width:35%; height:10%'>" . $mensaje . "</td>
-    		</tr>
-    	</table>
+            <tr align='left'>
+                <th style='background: #E1EEF4;color: #00496B;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 5px;text-align: center;'>Nombre:</th>
+                <td style='background: #FFF;color: #000;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 1px;text-align: center;'>" . $nombre . "</td>
+            </tr>
+            <tr align='left'>
+                <th style='background: #E1EEF4;color: #00496B;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 5px;text-align: center;'>Correo:</th>
+                <td style='background: #FFF;color: #000;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 1px;text-align: center;'>" . $correo . "</td>
+            </tr>
+            <tr align='left'>
+                <th style='background: #E1EEF4;color: #00496B;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 5px;text-align: center;'>Asunto:</th>
+                <td style='background: #FFF;color: #000;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 1px;text-align: center;'>" . $asun . "</td>
+            </tr>
+            <tr align='left'>
+                <th style='background: #E1EEF4;color: #00496B;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 5px;text-align: center;'>Teléfono:</th>
+                <td style='background: #FFF;color: #000;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 1px;text-align: center;'>" . $telefono . "</td>
+            </tr>
+            <tr align='left'>
+                <th style='background: #E1EEF4;color: #00496B;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 5px;text-align: center;'>Mensaje:</th>
+                <td style='background: #FFF;color: #000;border-left: 1px solid #E1EEF4;font-size: 15px;font-weight: normal;padding: 1px;text-align: center;'>" . $mensaje . "</td>
+            </tr>
+        </table>
     	<br>
     	<p><b>No contestar este mensaje, se genera automaticamente por el sistema</b></p>
     	<br>
@@ -48,7 +48,7 @@ function mailContacto($nombre, $correo, $asun, $mensaje, $telefono)
     </html>";
 
 $mail = new PHPMailer(); // defaults to using php "mail()"
-$mail->SetFrom('no-reply@vivens.mx', 'no-reply');
+$mail->SetFrom('no-reply@vivens.mx', 'Contacto Vivens');
 $mail->AddAddress($destino1);
 $mail->Subject = $asunto;
 $mail->MsgHTML($mensaje);
