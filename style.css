@@ -1601,26 +1601,26 @@ sonarEffect
     /*border-radius: 50px;*/
 }
 
-#pricing-area .col-md-3:last-child .plan {
+#pricing-area .col-md-3:last-child, .col-md-4:last-child .plan {
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
     border: 1px solid #BF9B5F;
 }
 
-#pricing-area .col-md-3:last-child .plan .price {
+#pricing-area .col-md-3:last-child, .col-md-4:last-child .plan .price {
     background-color: #BF9B5F;
 }
 
-#pricing-area .col-md-3:last-child .plan .choose_a_plan_button > a {
+#pricing-area .col-md-3:last-child, .col-md-4:last-child .plan .choose_a_plan_button > a {
     border: 1px solid transparent;
     background-color: #BF9B5F;
     color: #fff;
 }
 
-#pricing-area .col-md-3:last-child .plan .price:before {
+#pricing-area .col-md-3:last-child, .col-md-4:last-child .plan .price:before {
     border-bottom: 7px solid #BF9B5F;
 }
 
-#pricing-area .col-md-3:last-child .plan .price h2 {
+#pricing-area .col-md-3:last-child, .col-md-4:last-child .plan .price h2 {
     color: #fff;
 }
 

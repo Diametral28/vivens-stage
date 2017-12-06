@@ -13,7 +13,11 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-
+    .single-counter {
+    width: 16.6%;
+    height: auto;
+    margin: 0 10px;
+}
     ul#nav {
         padding-right: 75px;
     }
@@ -101,7 +105,11 @@
 /* Tablet Layout: 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
+    .single-counter {
+        height: auto;
+        margin-bottom: 50px;
+        width: 30%;
+    }
     .container {
         width: 750px;
     }
