@@ -4,7 +4,7 @@ include_once '../includes/PHPMailer-master/PHPMailerAutoload.php';
 function mailContacto($nombre, $correo, $asun, $mensaje, $telefono)
 {
     	
-	$destino1 = "omar_8375@hotmail.com";
+	$destino1 = "contacto@vivens.mx";
     $asunto = "Nuevo mensaje del area de Contacto";
     $mensaje = "
 
