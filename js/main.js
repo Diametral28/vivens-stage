@@ -144,6 +144,33 @@
         }
     });
 
+    // 12.0 Related Post Carousel
+    $('.promocion-slider').owlCarousel({
+        loop:true,/*
+        autoplay:true,*/
+        nav:true,
+        navText: ['<i class="pe-7s-angle-left"></i>','<i class="pe-7s-angle-right"></i>'],
+        margin: 30,
+        center:true,
+        autoWidth:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive:{
+           /* 0:{
+                items:1
+            },*/
+             300:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            767:{
+                items:3
+            }
+        }
+    });
     // 13.0 Demo Color Box
     var colorTrigger = $('.colorDemo ul li');
     var colorBox = $('.colorDemo')
