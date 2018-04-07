@@ -152,22 +152,20 @@
         navText: ['<i class="pe-7s-angle-left"></i>','<i class="pe-7s-angle-right"></i>'],
         margin: 30,
         center:true,
-        autoWidth:true,
+        // autoWidth:true,
         autoplay:true,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
+        responsiveClass:true,
         responsive:{
-           /* 0:{
-                items:1
-            },*/
-             300:{
+             0:{
                 items:1
             },
-            480:{
-                items:2
+            600:{
+                items:1
             },
-            767:{
-                items:3
+            1000:{
+                items:1
             }
         }
     });
