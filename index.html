@@ -608,12 +608,14 @@
             </div>
             <div class="promocion-slider">
                 <div>
-                    <img src="images/promociones/junio1.JPG" alt=""> 
+                    <img src="images/promociones/promocion-julio1.JPG" alt=""> 
                 </div>
                 <div> 
-                    <img src="images/promociones/junio2.JPG" alt="">
+                    <img src="images/promociones/promocion-julio2.JPG" alt="">
                 </div>
-                
+                <div> 
+                    <img src="images/promociones/promocion-julio3.JPG" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -1316,10 +1318,123 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
     <!-- ================= Contact Area Start ================= -->
     <section id="contact-area" class="padding-top-100">
         <!-- Google Map Area -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Section Title -->
+                    <div class="section_title_black text-center margin-bottom-60">
+                        <h2>SUCURSALES</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
         
+        <div class="container">
+            <div class="row sucursales">
+                <div class="col-md-6" align="center">
+                    <img src="images/iconos/Imagotipo.png" alt="">
+                    </br>
+                    <h3>PLAZA CIUDADELA</h3>
+                    <hr>
+                    <p>Av. Patria 1437 Local SAM01, Colonia Jardines del Sol, <br>  Zapopan, Jalisco, CP. 45050 <br> Horario: <br> Martes a Viernes 9am a 9pm <br> Sábado 9am a 6pm Domingo 10am a 3pm</p>
+                    <div>
+                        <div class="google-map-area">
+                            <div class="container-fluid no-padding">
+                                <div id="contactgoogleMap"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" align="center">
+                    <img src="images/iconos/Imagotipo.png" alt="">
+                    </br>
+                    <h3>LAS VILLAS</h3>
+                    <hr>
+                    <p>Av. López Mateos Sur 1450, Local 22, <br> Plaza Las Villas,  CP. 45647, <br> Tlajomulco de Zuñiga, Jalisco. <br> Horario: <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p>
+                    <div>
+                        <div class="google-map-area">
+                            <div class="container-fluid no-padding">
+                                <div id="contactgoogleMap2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container no-padding">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Section Title -->
+                    <div class="section_title_black text-center margin-bottom-70">
+                        <h2>CONTACTANOS </h2>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="row contact_info text-center">
+                <!-- single contact info -->
+                <div class="col-sm-4">
+                    <div class="single_contact_info">
+                        <i class="pe-7s-map-marker"></i>
+                        <p>Guadalajara</p>
+                        <p>Jalisco</p>
+                    </div>
+                </div>
+                <!-- single contact info -->
+                <div class="col-sm-4">
+                    <div class="single_contact_info">
+                        <i class="pe-7s-call"></i>
+                        <p>Linea Vivens</p>
+                        <p><a href="tel:+123456789">3631 3806</a></p>
+                    </div>
+                </div>
+                <!-- single contact info -->
+                <div class="col-sm-4">
+                    <div class="single_contact_info">
+                        <i class="pe-7s-mail"></i>
+                        <p>Siéntete libre de contactarnos</p>
+                        <p><a href="mailto:info@sander.com">contacto@vivens.mx</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- contact from start -->
+                <div class="contact-form">
+                    <form action="operations/userOperations.php?operation=nuevoContacto" method="post" name="contact-form" id="main-contact-form">
+                        <!-- single input -->
+                        <div class="col-md-6 col-sm-6">
+                            <input type="text" placeholder=" Nombre *" name="nombre" id="nombre" required="required" />
+                        </div>
+                        <!-- single input -->
+                        <div class="col-md-6 col-sm-6">
+                            <input type="email" placeholder=" Email *" name="correo" id="correo" required="required" />
+                        </div>
+                        <!-- single input -->
+                        <div class="col-md-6 col-sm-6">
+                            <input type="tel" placeholder=" Teléfono *" name="telefono" id="telefono" required="required" />
+                        </div>
+                        <!-- single input -->
+                        <div class="col-md-6 col-sm-6">
+                            <input type="text" placeholder=" Asunto" name="asunto" id="asunto" required="required" />
+                        </div>
+                        <!-- single input -->
+                        <div class="col-md-12 col-sm-12">
+                            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder=" Escribe tu mensaje... " required="required" ></textarea>
+                        </div>
+                        <!-- single input -->
+                        <div class="col-md-12 col-sm-12 content-center">
+                            <input name="submit" type="submit" value="Enviar Mensaje!" />
+                        </div>
+                        <div class="form_status"></div>
+                    </form>
+                </div>
+                <!-- contact from end -->
+            </div>
+        </div>
         
     </section>
-    <!-- ================= Contact Area End ================= -->
+<!-- ================= Contact Area End ================= -->
 
     <!-- ================= Footer Area Start ================= -->
     <footer id="footer_area">
