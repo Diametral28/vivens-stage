@@ -170,8 +170,8 @@
                     <!-- 1st SLIDE Start -->
                     <li data-transition="boxslide" data-slotamount="1" data-masterspeed="1500" data-thumb="" data-delay="15000" data-saveperformance="off" data-title="VIVENS HOME">
                         <!-- MAIN IMAGE -->
-                        <img src="images/slider/inicio-bln-sm.jpg" alt="Slider One Bg">
-                        
+                        <img src="" id="imgslider" alt="Slider One Bg">
+
                          <div class="tp-caption sfb tp-resizeme" data-x="700" data-y="240" data-speed="600" data-start="1500" data-easing="easeInQuad" data-easeout="easeOutQuad" style="max-width: auto; max-height: auto;">
                             <img src="images/slider/vivens-logo.png" width="400px" alt="logo-vivens-spa">
                         </div>
@@ -1685,6 +1685,17 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
             marker.setMap(map2);
         }
         google.maps.event.addDomListener(window, 'load', initialize2);
+    </script>
+    <script type="text/javascript">
+        var windowWidth2 = $( window ).width();
+        if( windowWidth2 > 768 ){
+            $('#imgslider').attr("src","images/slider/inicio-bln.jpg");
+        
+        }
+        else {
+            $("#imgslider").attr("src","images/slider/inicio-bln-sm.jpg");
+        }
+        
     </script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>

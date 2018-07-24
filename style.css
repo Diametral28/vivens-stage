@@ -192,6 +192,7 @@ Gris2  = #ECEAE8
 .logo img {
     height: 44px;
     width: auto;
+    display: none;
 }
 
 .navbar-toggle .icon-bar {
@@ -355,6 +356,7 @@ ul#nav {
 .is-sticky .logo img {
     height: 35px;
     width: auto;
+    display: inherit;
 }
 
 .is-sticky .mainmenu ul.nav li a {

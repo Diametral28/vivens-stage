@@ -94,6 +94,7 @@
              scrollTop : $($anchor.attr('href')).offset().top - headerH + "px"
         }, 1200, 'easeInOutExpo');
         event.preventDefault();
+        console.log("scroll");
     });
 
     // 10.0 Menu Close Button
@@ -102,8 +103,10 @@
         $(this).toggleClass('Cross');
         body.toggleClass('menuEffect');
     }
+    
     if( windowWidth > 768 ){
         openMenu();
+        
     }
     $('.menuCloseBtn').on('click', function(){
         openMenu();
@@ -116,6 +119,7 @@
             $('#bs-example-navbar-collapse-1').toggleClass('in');
             body.toggleClass('menuEffect');
         });
+        
     }
     
     // 12.0 Related Post Carousel
@@ -243,6 +247,7 @@
     function videoPlay(video){
         video.get(0).play();
     }
+
 
 
 })(jQuery);
