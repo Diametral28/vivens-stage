@@ -1,0 +1,17 @@
+body{
+	background: url(../images/mensajes-com.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+} 
+
+.div-msj{
+	padding-top: 150px;
+} 
+.cuadro{
+	background: #e4d8d4ad;
+} 
+h1{
+	color: #5FEB6C;
+}
