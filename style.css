@@ -170,7 +170,18 @@ Gris2  = #ECEAE8
     opacity: 1;
     filter: alpha(opacity=100);
 }
-
+.pay-button{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 40px;
+}
+.div-pay{
+    height: 50px;
+}
 
 /* ============================================
 2.    Start Header CSS

@@ -13,5 +13,34 @@ body{
 	background: #e4d8d4ad;
 } 
 h1{
-	color: #5FEB6C;
+	color: #25922a;
+	text-align: center;
+} 
+h2{
+	
+	text-align: center;
+} 
+.hr{
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0,0,0,5);
+    width: 80%;
+}
+p{
+	text-align: center;
+}
+.green{
+	color: #25922a;
+}
+.div-img{
+	text-align: center;
+}
+
+.div-a{
+	text-align: center;
+	color: #4e76ab;
+}
+.imgn{
+	width: 60%;
 }
