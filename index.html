@@ -511,7 +511,8 @@
     </section>
     <!-- ================= End Recent Work Area ================= -->
     <!-- ================= Start Pricing Area ================= -->
-    <section id="pricing-area">
+    <!-- ================= Include class pay-button in input image ================= -->
+    <section id="pricing-area">  
         <div class="container-fluid section-padding text-center">
             <div class="row">
                 <div class="col-md-12">
@@ -522,85 +523,35 @@
                 </div>
             </div>
             <div class="promocion-slider">
-                <!-- ================= Include class pay-button in input image ================= -->
-                <div class="div-pay">
-                    <img src="images/promociones/promocion_Noviembre1.JPG" alt="">
-                    <div aling="center div-pay">
-                            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                                  <input class="pay-button" type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
-                                  <input name="buttonId" type="hidden" value="08+QvqVQbnwW3SSKKY5wZ8y/ceNStfsIajy5t0hO9mX/sQQ2ZO/yTg=="/>
-                                  <input name="merchantId" type="hidden" value="697516"/>
-                                  <input name="accountId" type="hidden" value="700525"/>
-                                  <input name="description" type="hidden" value="Masaje Relajante mas SkinCare Hidratante"/>
-                                  <input name="referenceCode" type="hidden" value="relajante03Nov18"/>
-                                  <input name="amount" type="hidden" value="899.00"/>
-                                  <input name="tax" type="hidden" value="0.00"/>
-                                  <input name="taxReturnBase" type="hidden" value="0.00"/>
-                                  <input name="currency" type="hidden" value="MXN"/>
-                                  <input name="lng" type="hidden" value="es"/>
-                                  <input name="approvedResponseUrl" type="hidden" value="https://www.vivens.mx/message/exitosa.html"/>
-                                  <input name="declinedResponseUrl" type="hidden" value="https://www.vivens.mx/message/error.html"/>
-                                  <input name="pendingResponseUrl" type="hidden" value="https://www.vivens.mx/message/pendiente.html"/>
-                                  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
-                                  <input name="buttonType" value="SIMPLE" type="hidden"/>
-                                  <input name="signature" value="e1387b71b7ea484893fd660d0b0d7d92bb9e596054a5c666f713a0cfad3a89a2" type="hidden"/>
-                                </form>
-                    </div> 
+                
+                <div class=" ">
+                    <img src="images/promociones/promocion-Enero01.jpeg" alt="">
+                    <!-- <div aling="center div-pay">
+                        <input class="pay-button" id="pay-btn" onclick="buttonCompra('50min');" type="image" border="0" data-masaje="50min" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" />
+                    </div>  -->
                 </div>
-                <div>
-                    <img src="images/promociones/promocion_Noviembre2.JPG" alt="">
-                    <div aling="center div-pay">
-                            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                                  <input class="pay-button" type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
-                                  <input name="buttonId" type="hidden" value="BRvo6+a9xz3Bw4GE/lQJBrrgAo3Y6mj7xEqi+/n0o3wYyJzankQW6g=="/>
-                                  <input name="merchantId" type="hidden" value="697516"/>
-                                  <input name="accountId" type="hidden" value="700525"/>
-                                  <input name="description" type="hidden" value="Masaje Aromavedito mas Linfatico"/>
-                                  <input name="referenceCode" type="hidden" value="aromavedito02Nov18"/>
-                                  <input name="amount" type="hidden" value="1099.00"/>
-                                  <input name="tax" type="hidden" value="0.00"/>
-                                  <input name="taxReturnBase" type="hidden" value="0.00"/>
-                                  <input name="currency" type="hidden" value="MXN"/>
-                                  <input name="lng" type="hidden" value="es"/>
-                                  <input name="approvedResponseUrl" type="hidden" value="https://www.vivens.mx/message/exitosa.html"/>
-                                  <input name="declinedResponseUrl" type="hidden" value="https://www.vivens.mx/message/error.html"/>
-                                  <input name="pendingResponseUrl" type="hidden" value="https://www.vivens.mx/message/pendiente.html"/>
-                                  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
-                                  <input name="buttonType" value="SIMPLE" type="hidden"/>
-                                  <input name="signature" value="3d7996c80fad767c61f048a781d363e707b5e6c333388243812ee4a4aaa61f12" type="hidden"/>
-                                </form>
-                        </div> 
+                <div class="">
+                    <img src="images/promociones/promocion-enero02.jpeg" alt="">
+                    <!-- <div aling="center div-pay">
+                        <input class="pay-button" id="pay-btn" onclick="buttonCompra('50min');" type="image" border="0" data-masaje="50min" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" />
+                    </div>  -->
                 </div>
-                <div class=""> 
-                    <img src="images/promociones/promocion_Noviembre3.JPG" alt="">
-                    <div aling="center" class="row div-pay">
-                        <div class="col-md-2 col-md-offset-4">
-                                <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                                      <input class="pay-button" type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
-                                      <input name="buttonId" type="hidden" value="yNezaQzbEPi2ckUxM9DouxNxMm7rlgb3vSBUd1EWThdJNg/D2LoGzg=="/>
-                                      <input name="merchantId" type="hidden" value="697516"/>
-                                      <input name="accountId" type="hidden" value="700525"/>
-                                      <input name="description" type="hidden" value="Masaje 50min mas sesión de Acupuntura"/>
-                                      <input name="referenceCode" type="hidden" value="acopuntura01Nov18"/>
-                                      <input name="amount" type="hidden" value="699.00"/>
-                                      <input name="tax" type="hidden" value="0.00"/>
-                                      <input name="taxReturnBase" type="hidden" value="0.00"/>
-                                      <input name="currency" type="hidden" value="MXN"/>
-                                      <input name="lng" type="hidden" value="es"/>
-                                      <input name="approvedResponseUrl" type="hidden" value="https://www.vivens.mx/message/exitosa.html"/>
-                                      <input name="declinedResponseUrl" type="hidden" value="https://www.vivens.mx/message/error.html"/>
-                                      <input name="pendingResponseUrl" type="hidden" value="https://www.vivens.mx/message/pendiente.html"/>
-                                      <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
-                                      <input name="buttonType" value="SIMPLE" type="hidden"/>
-                                      <input name="signature" value="90aa2a6dabe210b2f13e9dd88ea54c17318b922f5beefdcee49bf8377a8637d6" type="hidden"/>
-                                    </form>
-                        </div>
-                    </div>
+                <div class="">
+                    <img src="images/promociones/promocion-enero03.jpeg" alt="">
+                    <!-- <div aling="center div-pay">
+                        <input class="pay-button" id="pay-btn" onclick="buttonCompra('50min');" type="image" border="0" data-masaje="50min" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" />
+                    </div>  -->
                 </div>
-               
+                <div class="">
+                    <img src="images/promociones/promocion-enero04.jpeg" alt="">
+                    <!-- <div aling="center div-pay">
+                        <input class="pay-button" id="pay-btn" onclick="buttonCompra('50min');" type="image" border="0" data-masaje="50min" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" />
+                    </div>  -->
+                </div>
+                
             </div>
         </div>
-    </section>
+    </section> 
     <!-- ================= End Pricing Area ================= -->
     <!-- ================= Partner Carousel Area Start ================= -->
     <div id="partner_carousel_area">
@@ -1754,6 +1705,7 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
         google.maps.event.addDomListener(window, 'load', initialize2);
     </script>
     <script type="text/javascript">
+    //--------- PAY BUTTON --------//
         var windowWidth2 = $( window ).width();
         if( windowWidth2 > 768 ){
             $('#imgslider').attr("src","images/slider/inicio-bln.jpg");
@@ -1764,6 +1716,7 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
         }
         
     </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>
 
@@ -1850,3 +1803,76 @@ Nuestra vida transcurre en instantes, momentos. Cuando llegamos a reflexionar, s
   </div>
 </div>
 </html>
+<!-- Modal Pagp-->
+<div class="modal fade" id="modalPago" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="payLabel" style="color: #545353;">Vivens | Compra Masajes de Navidad</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+                <div class="col-md-6">
+                  <div id="select">
+                    
+                  </div>
+                </div>
+              <div class="col-md-3">
+                <h1>Total</h1>
+              </div>
+              <div class="col-md-3">
+                    <h1 style="color:#0da10f;">$<span id="monto"></span></h1>
+                    
+             </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+         <div id="prueba">
+                
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+      function buttonCompra(type){
+          console.log(type);
+          let url = "";
+          if(type === "50min"){
+              url = "ajax/ajaxCompra.html";
+          }else if(type === "100min"){
+            url = "ajax/ajaxCompra100.html";
+          }
+          $.ajax({
+                url: url, 
+                success: function(result){
+                    $("#select").html(result);
+                }
+            });
+          $("#modalPago").modal();
+      }
+      function selectMonto(){
+        let value = $("#selectMonto").val();
+
+        if(value != ""){
+            $("#monto").text(value);
+            var parametros = {
+                "valor" : value
+            };
+            $.ajax({
+                    url: "ajax/ajaxButton.php", 
+                    type:'post',
+                    data: parametros,
+                    success: function(result){
+                        $("#prueba").html(result);
+                    }
+                });
+            console.log(value);
+        }
+      }
+    /* $('#modalPago').on('show.bs.modal', function (e) {
+        $("#paylabel").text('Masajes 50 min');
+    }) */
+  </script>

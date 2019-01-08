@@ -177,7 +177,16 @@ Gris2  = #ECEAE8
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pay-button2{
+    position: absolute;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 15px;
 }
 .div-pay{
     height: 50px;
