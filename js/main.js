@@ -1,4 +1,6 @@
 (function ($) {
+    
+
     "use strict";
 
     var body = $('body');
@@ -68,7 +70,7 @@
     // 5.0 Portfolio Work Mixitup
     $('#content').mixItUp();
 
-    // 6.0 jQuery counter
+    // 6.0 jQuery counter 
     $('.counter').counterUp({
         delay: 50,
         time: 3000
@@ -77,8 +79,11 @@
     // 7.0 Venobox
     $('.lightbox ').venobox({
         numeratio: true,
-        infinigall: true
+        infinigall: true,
+        /* overlayColor:rgba(23, 23, 23, 0.85), */
     });
+
+    $('.vbox-inline').css('background:rgba(255, 255, 255, 0) none repeat scroll 0% 0% !important');
 
     // 8.0 Jquery Scroll Spay
     $('body').scrollspy({
@@ -248,6 +253,7 @@
         video.get(0).play();
     }
 
+    
 
 
 })(jQuery);

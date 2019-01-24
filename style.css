@@ -862,12 +862,16 @@ form.search-box {
     margin-left: -1px;
     margin-top: -1px;
 }
-
+ 
 #content .mix {
     border-left: 1px solid #fff;
     border-top: 1px solid #fff;
     display: none;
 }
+
+.portfolio-item{
+    text-align: center;
+} 
 
 .portfolio-item figure {
     position: relative;
@@ -3462,4 +3466,7 @@ div#preloader {
 ============================================ */
 .equipo-inherit{
     background: #f0ffff66;
+}
+.transparent-div{
+    background: rgba(255, 255, 255, 0) none repeat scroll 0% 0% !important;
 }
