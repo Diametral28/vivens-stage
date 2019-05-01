@@ -71,10 +71,10 @@
     $('#content').mixItUp();
 
     // 6.0 jQuery counter 
-    $('.counter').counterUp({
+    /* $('.counter').counterUp({
         delay: 50,
         time: 3000
-    });
+    }); */
 
     // 7.0 Venobox
     $('.lightbox ').venobox({
