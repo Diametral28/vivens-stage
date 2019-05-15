@@ -888,7 +888,7 @@
     <!-- ================= End Recent Work Area ================= -->
     <!-- ================= Start Pricing Area ================= -->
     <!-- ================= Include class pay-button in input image ================= -->
-    <<section id="pricing-area">
+    <section id="pricing-area">
         <div class="container-fluid section-padding text-center">
             <div class="row">
                 <div class="col-md-12">
@@ -904,7 +904,7 @@
                     <img src="images/promociones/promocion-mayo19-01.PNG" alt="">
                     <div aling="center div-pay">
                     <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                          <input type="image" class="pay-button" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+                          <input type="image" class="pay-button" border="0" alt="" src="https://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
                           <input name="buttonId" type="hidden" value="udkgK4TMa1vHh3knDjTDLD79cZjBBeJ6XmIN4yzXr8fZNCAyA1grHQ=="/>
                           <input name="merchantId" type="hidden" value="697516"/>
                           <input name="accountId" type="hidden" value="700525"/>
@@ -931,7 +931,7 @@
                     <div aling="center div-pay">
                        
                             <form method="post"  action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                                  <input type="image" class="pay-button" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+                                  <input type="image" class="pay-button" border="0" alt="" src="https://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
                                   <input name="buttonId" type="hidden" value="rDSxaReDHIOPL06oX8UxtCDc2SmC/I8BvkmdVQsryUAAjxdfCTZrmA=="/>
                                   <input name="merchantId" type="hidden" value="697516"/>
                                   <input name="accountId" type="hidden" value="700525"/>
@@ -1716,33 +1716,39 @@
 
         <div class="container">
             <div class="row sucursales">
-                <div class="col-md-6" aling="center">
+                <div class="col-md-4 alcenter" aling="center">
                     <img src="images/iconos/Imagotipo.png" alt="">
                     </br>
                     <h3>PLAZA CIUDADELA</h3>
                     <hr>
                     <p>Av. Patria 1437 Local SAM01, Colonia Jardines del Sol, <br> Zapopan, Jalisco, CP. 45050 <br>
                         Horario: <br> Martes a Viernes 9am a 9pm <br> Sábado 9am a 6pm Domingo 10am a 3pm</p>
-                    <div>
-                        <div class="google-map-area">
-                            <div class="container-fluid no-padding">
-                                <div id="contactgoogleMap"></div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
-                <div class="col-md-6" aling="center">
+                <div class="col-md-4 alcenter" aling="center">
                     <img src="images/iconos/Imagotipo.png" alt="">
                     </br>
                     <h3>LAS VILLAS</h3>
                     <hr>
                     <p>Av. López Mateos Sur 1450, Local 22, <br> Plaza Las Villas, CP. 45647, <br> Tlajomulco de
-                        Zuñiga, Jalisco. <br> Horario: <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p>
-                    <div>
-                        <div class="google-map-area">
-                            <div class="container-fluid no-padding">
-                                <div id="contactgoogleMap2"></div>
-                            </div>
+                        Zuñiga, Jalisco. <br> Horario: <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p></br>
+                    
+                </div>
+                <div class="col-md-4 alcenter" aling="center">
+                    <img src="images/iconos/Imagotipo.png" alt="">
+                    </br>
+                    <h3>LA ESTANCIA</h3>
+                    <hr>
+                    <p>Avenida Rafael Sanzio #634, <br> Col. Arcos Guadalupe CP 45037, <br> Zapopan, Jalisco.
+                    <br> Horario: <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p></br>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="google-map-area">
+                        <div class="container-fluid no-padding">
+                            <div id="contactgoogleMap"></div>
                         </div>
                     </div>
                 </div>
@@ -1886,13 +1892,17 @@
     <script src="js/vendor/jquery-1.12.2.min.js"></script>
 
     <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5Sjy68hWY2bsARn-jOE_uhGeYy7OYnxo"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSxhuhytGfhJMGnRuY6pvT9XgTbDs_nj0"></script>
     <script>
-        var myCenter = new google.maps.LatLng(20.5888557, -103.447522);
+        var myCero = new google.maps.LatLng(20.6391402, -103.4289821);
+        var myCenter = new google.maps.LatLng(20.6483122, -103.4228763);
+        var myCenter2 = new google.maps.LatLng(20.5888557, -103.447522);
+        var myCenter3 = new google.maps.LatLng(20.6640899, -103.4341668,);
+
         function initialize() {
             var mapProp = {
-                center: myCenter,
-                zoom: 15,
+                center: myCero,
+                zoom: 12,
                 scrollwheel: false,
                 mapTpeIdy: google.maps.MapTypeId.TERRAIN,
                 styles: [
@@ -2015,153 +2025,74 @@
                 ]
             };
             var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
+            var contentString = '<div id="content">'+
+            '<div class="sucursales alcenter">'+
+            '<h3>PLAZA CIUDADELA</h3>'+
+            '<hr>'+
+            '<p>Av. Patria 1437 Local SAM01, Colonia Jardines del Sol, <br> Zapopan, Jalisco, CP. 45050 <br>'+
+            'Horario: <br> Martes a Viernes 9am a 9pm <br> Sábado 9am a 6pm Domingo 10am a 3pm</p>'+
+            '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+            content: contentString
+            });
+
+            var contentString2 = '<div id="content">'+
+            '<div class="sucursales alcenter">'+
+            '<h3>LAS VILLAS</h3>'+
+            '<hr>'+
+            'p>Av. López Mateos Sur 1450, Local 22, <br> Plaza Las Villas, CP. 45647, <br> Tlajomulco de Zuñiga, Jalisco. <br>'+
+            'HHorario: <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p></br>'+
+            '</div>';
+
+            var infowindow2 = new google.maps.InfoWindow({
+            content: contentString2
+            });
+
+            var contentString3 = '<div id="content">'+
+            '<div class="sucursales alcenter">'+
+            '<h3>LA ESTANCIA</h3>'+
+            '<hr>'+
+            '<p>Avenida Rafael Sanzio #634, <br> Col. Arcos Guadalupe CP 45037, <br> Zapopan, Jalisco.'+
+            'Horario: <br> Martes a Viernes 9am a 9pm <br> Lunes a Viernes 8am a 12pm y 5pm a 9pm</p>'+
+            '</div>';
+
+            var infowindow3 = new google.maps.InfoWindow({
+            content: contentString3
+            });
+
             var marker = new google.maps.Marker({
                 position: myCenter,
+                title: 'PLAZA CIUDADELA',
                 animation: google.maps.Animation.BOUNCE,
                 icon: 'images/google-pin.png'
             });
-            marker.setMap(map);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-    <script>
-        var myCenter2 = new google.maps.LatLng(20.6483122, -103.4228763);
-
-        function initialize2() {
-            var mapProp2 = {
-                center: myCenter2,
-                zoom: 15,
-                scrollwheel: false,
-                mapTpeIdy: google.maps.MapTypeId.TERRAIN,
-                styles: [
-                    {
-                        "featureType": "landscape",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 65
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "poi",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 51
-                            },
-                            {
-                                "visibility": "simplified"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.highway",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "visibility": "simplified"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.arterial",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 30
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.local",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 40
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "transit",
-                        "stylers": [
-                            {
-                                "saturation": -100
-                            },
-                            {
-                                "visibility": "simplified"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "administrative.province",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "labels",
-                        "stylers": [
-                            {
-                                "visibility": "on"
-                            },
-                            {
-                                "lightness": -25
-                            },
-                            {
-                                "saturation": -100
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "hue": "#ffff00"
-                            },
-                            {
-                                "lightness": -25
-                            },
-                            {
-                                "saturation": -97
-                            }
-                        ]
-                    }
-                ]
-            };
-            var map2 = new google.maps.Map(document.getElementById("contactgoogleMap2"), mapProp2);
-            var marker = new google.maps.Marker({
+            marker.addListener('click', function() {
+            infowindow.open(map, marker);
+            });
+            var marker2 = new google.maps.Marker({
                 position: myCenter2,
                 animation: google.maps.Animation.BOUNCE,
                 icon: 'images/google-pin.png'
             });
-            marker.setMap(map2);
+            marker2.addListener('click', function() {
+            infowindow2.open(map, marker2);
+            });
+            var marker3 = new google.maps.Marker({
+                position: myCenter3,
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'images/google-pin.png'
+            });
+            marker3.addListener('click', function() {
+            infowindow3.open(map, marker3);
+            });
+            marker.setMap(map);
+            marker2.setMap(map);
+            marker3.setMap(map);
         }
-        google.maps.event.addDomListener(window, 'load', initialize2);
-    </script>
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script> 
+
     <script type="text/javascript">
         //--------- PAY BUTTON --------//
         var windowWidth2 = $(window).width();

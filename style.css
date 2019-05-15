@@ -3457,10 +3457,12 @@ div#preloader {
     color: #2c3e50;
 }
 
-.sucursales hr{
+.sucursales hr{ 
     color: #BF9B5F;
 }
-
+.alcenter{
+    text-align: center;
+}
 /* ============================================
      EQUIPO
 ============================================ */
